@@ -1,0 +1,76 @@
+/*RESPONSIVE*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.navbar{		
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.150) !important;
+}
+ .navbar .navbar-nav{
+ 	background-color: rgba(0, 0, 200, 0.6);
+ 	padding: 10px 0;
+ 	margin-bottom: 10px;
+ 	border-radius: 10px;
+ 	text-align: right;
+ }
+ .navbar .nav-item.mx-2{
+ 	margin: 0 !important;
+ }
+ .navbar .nav-item{
+ 	background-color: transparent;
+ 	text-align: right;
+ 	border: 0;
+ }
+ .navbar .nav-item > .nav-link{
+ 	color: #fff !important;
+ }
+ .navbar .nav-item.active{
+ 	background-color: transparent;
+ }
+
+
+ /* home */
+ .home{
+ 	height: 80vh;
+ }
+ .home .left{
+ 	align-items: center;
+ 	text-align: center;
+ }
+ .home a{
+ 	margin-bottom: 4px;
+ 	padding: 7px 15px !important;
+ 	width: 80%;
+ }
+ .home{
+ 	margin-top: 110px;
+ 	padding: 0px 30px;
+ 	background-color: #fff;
+ }
+ .home .content{
+ 	padding: 0;
+ 	box-shadow: 0 0 0 0;
+ 	border-radius: 0;
+ 	background-color: transparent;
+ }
+ .top-btn{
+ 	right: 10px;bottom: 10px;
+ }
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	.home{
+		margin-top: 20px;
+		padding: 20px;
+	}
+	.home .left{
+ 	align-items: center;
+ 	padding-top: 20px;
+ 	text-align: center; 	
+	 }
+	 .home .content{
+	 	margin-top: 55px;
+	 	padding: 15px 30px;
+	 }
+}
+@media (min-width: 1025px) and (max-width: 2560px){
+	
+}
